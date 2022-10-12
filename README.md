@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+### Olá 👋;
+	
+### Esse Projeto executado em FrontEnd com framework React :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 🌐 Criação de uma livraria e elaboração de uma tabela com bastante pesquisa e conhecimento,
 
-## Available Scripts
+###  🌐 A ferramenta de uso foi a IDE do VSCode.
 
-In the project directory, you can run:
+### 🌐 Quando abre o projeto o Arquivo principal é:
+## “App.jsx”   
 
-### `npm start`
+### 🌐 No projeto foi usado a fonte “Inter” importada do “Google Fonts”, o link segue abaixo:
+### ⏩ https://fonts.google.com/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### As imagens foram importadas conforme os links abaixo:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### https://media.giphy.com/media/7SKUx7FY83GEMk9t08/giphy.gif#
 
-### `npm test`
+### https://github.com/RafaRz76Dev.png
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### No terminal do PowerShell foi executado o comando:
+### 🚀 npx create-react-app  para criação a pasta
+### Foram importadas as seguintes bibliotecas:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### npm install --save phosphor-react (Para Imagens)
+### npm install react-router-dom (Para Rotas)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### npm install bootstrap (Para o Formulário)
 
-### `npm run eject`
+### Scripts Disponíveis
+### No terminal do VSCode você executa o comando “npm start”
+👉 Abra http://localhost:3000 para visualizá-lo em seu navegador.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### ✅ Criação de Endpoints da API Rest.
+### ▶ 😀👀 Bora lá....
+### Gostou, então já deixa a 🌟
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Você pode aprender mais na documentação do Create React App .
+#### Para aprender o React, confira a documentação do React .
+### Link: https://pt-br.reactjs.org/docs/getting-started.html.

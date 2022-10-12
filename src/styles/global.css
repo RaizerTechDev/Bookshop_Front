@@ -1,0 +1,38 @@
+:root {
+  --background: #09090A;
+
+  --white: #ffffff;
+ --white-600: #F0F0F0;
+  --white400: #EDEDED;
+
+  --grey-300: #C6C6D3;
+  --grey-400: #A1A1AA;
+
+  --dark-300:#3F3F46;
+  --dark-400: #27272A;
+  --dark-500:#3E3E41;
+  --dark-600: #1C1C1C;
+
+  --green-500: #00875f;
+
+  --red-500: #f75a68;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #09090a;
+}
+
+body,
+input,
+button {
+  font-family: "Inter", sans-serif;
+  /* 1rem = 16px */
+  font-size: 1rem;
+  -weibkit-font-smoothing: antialiased;
+}

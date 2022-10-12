@@ -1,0 +1,95 @@
+.container {
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 8rem;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .container h1 {
+    margin: 84px 0 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--white);
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: 10px 4px 4px rgba(97, 206, 112, 0.75);
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  
+  .input-container Form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .input-container input {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background: var(--gray-600);
+    border-radius: 8px;
+    color: var(--white-600);
+    font-size: 16px;
+  }
+  
+  .input-container button {
+    height: 45px;
+    background: var(--green-500);
+    border: none;
+    margin-left: 16px;
+    width: 5%;
+    background: #50b9a9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    transition: filter 0.2s;
+  }
+  
+  .input-container button:hover {
+    filter: brightness(0.9);
+    cursor: pointer;
+  }
+  
+  .Perfil {
+    border: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 6rem;
+    background: var(--dark-300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4rem;
+    margin-left: 3rem;
+    transition: filter 0.2s;
+  }
+  
+  .Whatsapp {
+    border: 0;
+    overflow: hidden;
+    width: 6rem;
+    background: var(--dark-300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -4rem;
+    margin-left: 23rem;
+    transition: filter 0.2s;
+  }
+  
+  .Books {
+    border: 0;
+    border-radius: 20%;
+    overflow: hidden;
+    width: 6rem;
+    background: var(--dark-300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -2rem;
+    margin-left: 15rem;
+    transition: filter 0.2s;
+  }

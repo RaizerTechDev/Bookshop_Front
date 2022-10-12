@@ -1,0 +1,62 @@
+table {
+    padding: 3.6rem 1.5rem;
+    width: 100%;
+    margin-top: -1rem;
+  }
+  
+  thead th {
+    background: #2f2f2f;
+    text-align: center;
+    border: 1px solid #797c7c;
+    border-top: 3px solid #797c7c;
+    text-align: center;
+    line-height: 2.5rem;
+    width: 2.5rem;
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  thead tr th {
+    cursor: pointer;
+  }
+  
+  thead tr:hover th {
+    background-color: #d0fcc0;
+  }
+  
+  tbody td {
+    background: #2f2f2f;
+    text-align: center;
+    border: 1px solid #797c7c;
+    border-top: 3px solid #797c7c;
+    line-height: 1.5rem;
+    height: 4.5rem;
+  }
+  
+  tbody tr td {
+    cursor: pointer;
+  }
+  
+  tbody tr:hover td {
+    background-color: #d0fcc0;
+  }
+  
+  table button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: var(--white);
+    transition: color 0.2s;
+    /* Por ser um botao de icone a gente coloca isso para que quando navegar por tab a borda fique mais colada no icone */
+    line-height: 0; 
+    border-radius: 2px;
+      
+  }
+  table button:hover{
+    color: var(--red-500);
+
+  }
+
+
+
+  

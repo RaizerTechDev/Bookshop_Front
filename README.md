@@ -32,7 +32,7 @@
 
 ### Scripts Disponíveis
 ### No terminal do VSCode você executa o comando “npm start”
-👉 Abra http://localhost:3000 para visualizá-lo em seu navegador.
+👉 Abra http://localhost:3001 para visualizá-lo em seu navegador.
 
 ### ✅ Criação de Endpoints da API Rest.
 ### ▶ 😀👀 Bora lá....

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 /* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
@@ -10,6 +11,7 @@ class Home extends React.Component {
     super(props);
 
     this.state = {
+      id: 1,
       nomelivro: "",
       livros: [
         {
@@ -27,7 +29,7 @@ class Home extends React.Component {
             </button>
           ),
         },
-
+        
         {
           Nome: "Os Inovadores",
           Autor: "Isaacson Walter",
@@ -93,36 +95,38 @@ class Home extends React.Component {
   componentDidMount() {
     this.buscarLivro();
   }
-  
-    buscarLivro(){
-    fetch(" http://localhost:3000/livros")
-    .then(resposta => resposta.json())
-    .then(dados => {
-      this.setState({ livros : dados})
-    })};
-       
-   
- deletarLivro = (id) => {
-  fetch(" http://localhost:3000/livros/"+id, {method: 'DELETE'})
-  .then(resposta => {
-   if(resposta.ok){
-    this.buscarLivro()
-   }
-})};     
 
-cadastarLivro = (livro) =>{
-  fetch(" http://localhost:3000/livros", {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json'},
-    body: JSON.stringify(livro)
-  })
-    .then(resposta => {
-      if (resposta.ok){
+  buscarLivro() {
+    fetch(" http://localhost:3000/livros")
+      .then((resposta) => resposta.json())
+      .then((dados) => {
+        this.setState({ livros: dados });
+      });
+  }
+
+  deletarLivro = (id) => {
+    fetch(" http://localhost:3000/livros/" + id, { method: "DELETE" }).then(
+      (resposta) => {
+        if (resposta.ok) {
+          this.buscarLivro();
+        }
+      }
+    );
+  };
+
+  cadastarLivro = (livro) => {
+    fetch(" http://localhost:3000/livros", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(livro),
+    }).then((resposta) => {
+      if (resposta.ok) {
         this.buscarLivro();
       } else {
-        alert('Não foi possível adicionar o livro!');
-      } 
-  })}
+        alert("Não foi possível adicionar o livro!");
+      }
+    });
+  };
 
   renderTabela() {
     return (
@@ -159,7 +163,7 @@ cadastarLivro = (livro) =>{
     );
   }
 
-  buscalivro = (e) => {
+  buscanome = (e) => {
     this.setState({
       nomelivro: e.target.value,
     });
@@ -170,24 +174,23 @@ cadastarLivro = (livro) =>{
       nomelivro: this.state.nomelivro,
     };
     this.envia(nome);
-
-
   }
+
   renderHome() {
-    return (     
+    return (
       <div className="input-container">
         <Form>
           <Form.Control
             type="text"
             placeholder="Buscar"
-            value={this.state.nomelivro}
-            onChange={this.buscalivro} />
-
+            value={this.state.nome}
+            onChange={this.buscanome}
+          />
           <button title="submit" onClick={this.submit}>
             <Plus Circle size={26} color="#FFFFFF" weight="bold" />
           </button>
         </Form>
-      </div>   
+      </div>
     );
   }
 

@@ -25,6 +25,7 @@
 ### 🚀 npx create-react-app para criação a pasta
 ### Foram importadas as seguintes bibliotecas:
 
+### npm install
 ### npm install --save phosphor-react (Para Imagens)
 ### npm install react-router-dom (Para Rotas)
 

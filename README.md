@@ -1,13 +1,13 @@
-### Olá 👋;
+## Olá  <img src="https://media.giphy.com/media/l1J9sBOqBIvnafnUc/giphy.gif" align="center" width="85">
 	
-### Esse Projeto executado em FrontEnd com framework React :
+### Início do Projeto executado em Front End com framework React:
 
-### 🌐 Criação de uma livraria e elaboração de uma tabela com bastante pesquisa e conhecimento,
+### 🌐 Criação de uma livraria e elaboração de uma tabela com bastante pesquisa e conhecimento.
 
-###  🌐 A ferramenta de uso foi a IDE do VSCode.
+### 🌐 A ferramenta de uso foi a IDE do VSCode.
 
 ### 🌐 Quando abre o projeto o Arquivo principal é:
-## “App.jsx”   
+## “App.jsx”.   
 
 ### 🌐 No projeto foi usado a fonte “Inter” importada do “Google Fonts”, o link segue abaixo:
 ### ⏩ https://fonts.google.com/
@@ -22,7 +22,7 @@
 
 
 ### No terminal do PowerShell foi executado o comando:
-### 🚀 npx create-react-app  para criação a pasta
+### 🚀 npx create-react-app para criação a pasta
 ### Foram importadas as seguintes bibliotecas:
 
 ### npm install --save phosphor-react (Para Imagens)
@@ -39,6 +39,6 @@
 ### Gostou, então já deixa a 🌟
 
 
-#### Você pode aprender mais na documentação do Create React App .
-#### Para aprender o React, confira a documentação do React .
+#### Você pode aprender mais na documentação do Create React App.
+#### Para aprender o React, confira a documentação do React.
 ### Link: https://pt-br.reactjs.org/docs/getting-started.html.

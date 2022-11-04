@@ -6,9 +6,6 @@
 
 ### 🌐 A ferramenta de uso foi a IDE do VSCode.
 
-### 🌐 Quando abre o projeto o Arquivo principal é:
-## “App.jsx”.   
-
 ### 🌐 No projeto foi usado a fonte “Inter” importada do “Google Fonts”, o link segue abaixo:
 ### ⏩ https://fonts.google.com/
 

@@ -2,7 +2,7 @@
 	
 ### Início do Projeto executado em Front End com framework React:
 
-### 🌐 Criação de uma livraria e elaboração de uma tabela com bastante pesquisa e conhecimento.
+### 🌐 Criação de uma livraria e elaboração de uma tabela realizado com bastante pesquisa e conhecimento.
 <img src="videobook_1.gif" align="center" width="480" height="280">
 
 ### 🌐 A ferramenta de uso foi a IDE do VSCode.

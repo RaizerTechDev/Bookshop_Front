@@ -20,17 +20,15 @@
 
 
 ### No terminal do PowerShell foi executado o comando:
-### 🚀 npx create-react-app para criação a pasta
-### Foram importadas as seguintes bibliotecas:
+### 🚀 npx create-react-app para criação a pasta.
 
-### npm install
+### ➡Bibliotecas importadas👇
 ### npm install --save phosphor-react (Para Imagens)
 ### npm install react-router-dom (Para Rotas)
-
 ### npm install bootstrap (Para o Formulário)
 
-### Scripts Disponíveis
-### No terminal do VSCode você executa o comando “npm start”
+### Scripts Disponíveis para quando for baixar o projeto👇
+### ➡ No terminal do VSCode você executa os comandos "npm install" e “npm start”
 👉 Abra http://localhost:3000 para visualizá-lo em seu navegador.
 
 ### ✅ Criação de Endpoints da API Rest.
